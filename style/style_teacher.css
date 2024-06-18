@@ -1,0 +1,59 @@
+/* Расписание */
+.subjects-container{
+    text-align: center;
+    max-width: 700px;
+    /* margin: 0 auto;  */
+    border: 1px solid red;
+}
+
+.subjects-teacher{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
+.subjects-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 2px; 
+}
+
+.subjects-1 p{
+    margin: 0;
+    padding: 2px; 
+    text-align: left; 
+    margin-bottom: 5px; 
+    flex: 1 0 20%;
+}
+/* Информация о преподавателе */
+#teacher-info {
+    max-width: 700px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#teacher-info h2{
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+#teacher-name{
+    font-weight: bold;
+}
+
+#teacher-position{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#teacher-salary, #teacher-premium{
+    font-weight: bold;
+    color: #2ecc71;
+}
